@@ -1,0 +1,31 @@
+# --- Скомпільовані бінарні файли ---
+*.exe
+*.test
+*.out
+gateway
+gateway.exe
+client.exe
+
+# --- Кеш і тимчасові файли Go ---
+.gocache/
+.gotmp/
+.tmp/
+*.prof
+coverage.out
+
+# --- Логи ---
+*.log
+# Логи запуску, які входять у звіт (потрібні для README), не ігноруємо
+!docs/logs/*.log
+
+# --- Середовища розробки ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Операційні системи ---
+Thumbs.db
+Desktop.ini
+.DS_Store
