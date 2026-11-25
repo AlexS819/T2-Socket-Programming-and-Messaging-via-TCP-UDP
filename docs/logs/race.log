@@ -1,0 +1,15 @@
+?   	dispatch-gateway/client	[no test files]
+=== RUN   TestEchoTimeAndUnknownCommand
+--- PASS: TestEchoTimeAndUnknownCommand (0.00s)
+=== RUN   TestBroadcastBetweenClients
+--- PASS: TestBroadcastBetweenClients (0.00s)
+=== RUN   TestUsersCommandSeesBothClients
+--- PASS: TestUsersCommandSeesBothClients (0.00s)
+=== RUN   TestTelemetryBroadcastFromUDP
+--- PASS: TestTelemetryBroadcastFromUDP (0.00s)
+=== RUN   TestConcurrentClientsStress
+--- PASS: TestConcurrentClientsStress (0.15s)
+=== RUN   TestGracefulShutdownNotifiesClients
+--- PASS: TestGracefulShutdownNotifiesClients (0.00s)
+PASS
+ok  	dispatch-gateway	1.208s
